@@ -1,0 +1,61 @@
+.transfer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.currUser
+{
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+}
+
+.trans_to
+{
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+}
+.transfer h2
+{
+    font-size: 100px;
+    color: white;
+    text-shadow: black;
+}
+
+.amt::after
+{
+    width: 0;
+    border: 0px !important;
+}
+
+.dropdown
+{
+    color: white;
+    background-color: #6931c2;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.inp_value
+{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid white ;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding: 8px ;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+

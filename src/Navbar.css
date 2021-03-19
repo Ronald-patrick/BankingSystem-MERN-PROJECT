@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+.navbar
+{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.459);
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    text-shadow: 3px 3px #000000;
+    height: 75px;
+}

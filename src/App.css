@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body
+{
+    background: linear-gradient(135deg, #492cdd 0%, #ad38e2 100%);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-contain
+{
+    background-color: rgba(157, 72, 214, 0.274);
+    margin: 30px 60px;
+    border-radius: 35px ;
+    border-top: 1px solid rgba(255, 255, 255, 0.445);
+    border-left: 1px solid rgba(255, 255, 255, 0.445);
+    
+    padding-bottom: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main
+{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main img{
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.52));
+    transition: 1s;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info
+{
+    color: rgb(235, 230, 230);
+    width: 55%;
+    height: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Akaya Telivigala', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info h1
+{
+    font-size: 60px;
+    border:1px solid rgba(255, 255, 255, 0.514);
+    border-radius:20px;
+    padding: 10px;
+    text-shadow: 4px 5px #000000;
+    transition: 1s;
+}
+h3
+{
+    font-size: 40px;
+    font-weight: 200;
+    text-shadow: 3px 3px #000000;
+    align-self: center;
+}
+h3:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 50%; 
+    padding-top: 20px; 
+    border-bottom: 3px  solid rgba(255, 255, 255, 0.507) ;
+    border-radius: 5px;
+}
+.btn
+{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    background: transparent;
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 400;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+    background: white;
+    color: black;
 }
